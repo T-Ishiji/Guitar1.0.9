@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord",
+    "version": "1.0.9",
+    "description": "Guitar chord extension for BBC micro:bit V2. Sound triggers only at exact analog values 0 and 1023. Center zone is 490-533. Existing sustain, fade, retrigger, center-dwell mute, and timbre behavior is retained.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
